@@ -1,4 +1,16 @@
-# Rsbuild Project
+## The project
+This React project consumes the JSON Placeholder API to return information about users.
+
+For styling, react-aria-components was used alongside Tailwind CSS for basic theming, as well as styled-components for style management.
+
+React Query was implemented to add a caching strategy and avoid unnecessary requests.
+
+For testing, Jest was configured, and React Testing Library was used to conduct unit tests, ensuring code quality.
+
+The build/compilation process was handled with RsBuild, which stands out for its excellent performance.
+
+
+- [Production Deploy](https://66f307f60bd30d17dabdb9de--taupe-kangaroo-777e8a.netlify.app/)
 
 ## Setup
 
@@ -32,4 +44,3 @@ Preview the production build locally:
 yarn preview
 ```
 
-[Production Deploy](https://66f307f60bd30d17dabdb9de--taupe-kangaroo-777e8a.netlify.app/)
