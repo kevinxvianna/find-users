@@ -1,0 +1,45 @@
+{
+  "name": "find-users",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@adobe/react-spectrum": "^3.36.3",
+    "@react-aria/example-theme": "^1.0.3",
+    "axios": "^1.7.7",
+    "react": "^18.3.1",
+    "react-aria-components": "^1.3.3",
+    "react-dom": "^18.3.1",
+    "react-error-boundary": "^4.0.13",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.26.2",
+    "styled-components": "^6.1.13",
+    "tailwindcss": "^3.4.13",
+    "usehooks-ts": "^3.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.0",
+    "@rsbuild/core": "^1.0.1",
+    "@rsbuild/plugin-react": "^1.0.1",
+    "@rsbuild/plugin-styled-components": "^1.0.1",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-query": "^1.2.9",
+    "@types/styled-components": "^5.1.34",
+    "eslint": "^9.11.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.36.1",
+    "globals": "^15.9.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.2",
+    "typescript-eslint": "^8.6.0"
+  }
+}
