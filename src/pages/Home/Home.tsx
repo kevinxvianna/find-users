@@ -9,7 +9,7 @@ import Loading from '../../components/Loading/Loading';
 import { UserGrid } from '../../components/UserGrid';
 import { useMediaQuery } from 'usehooks-ts';
 
-export const Home = () => {
+export const Home: React.FC = () => {
   const [isCardView, setIsCardView] = useState<boolean>(false);
   const { isError, isLoading } = useFetchUsers();
   const { searchedName } = useSearchProvider();
