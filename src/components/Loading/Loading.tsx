@@ -4,7 +4,7 @@ import * as S from './Loading.styles';
 
 const Loading: React.FC = () => {
   return (
-    <S.Container>
+    <S.Container aria-label="loading-progressbar">
       <S.ProgressBar isIndeterminate>
         {({ percentage }) => (
           <>

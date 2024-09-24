@@ -14,10 +14,10 @@ export const UserList: React.FC<UserListProps> = ({ users }) => {
     return users?.map((user) => <UserItem key={user.id} user={user} />);
   }, [users]);
 
-  if (users?.length === 0 || !users) return <h1>user not found</h1>;
+  if (users?.length === 0 || !users) return <p>user not found</p>;
 
   return (
-    <S.Table aria-label="user-table">
+    <S.Table aria-label="users-table">
       <S.TableHeader>
         <S.Column isRowHeader>Name</S.Column>
         <S.Column>E-mail</S.Column>

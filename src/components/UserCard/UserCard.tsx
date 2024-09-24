@@ -9,8 +9,10 @@ type UserCardProps = {
 };
 
 export const UserCard: React.FC<UserCardProps> = ({ user }) => {
+  if (!user) return null;
+
   return (
-    <S.UserCard>
+    <S.UserCard aria-label="user-card">
       <S.HeaderSection>
         <S.UserPhoto src={BASE_IMAGE_URL} />
         <S.NameSection>

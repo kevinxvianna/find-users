@@ -8,6 +8,8 @@ type UserItemProps = {
 };
 
 export const UserItem: React.FC<UserItemProps> = ({ user }) => {
+  if (!user) return null;
+
   return (
     <S.Row>
       <S.Cell>{user?.name}</S.Cell>

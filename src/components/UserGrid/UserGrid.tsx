@@ -12,5 +12,8 @@ export const UserGrid: React.FC<UserGridProps> = ({ users }) => {
     if (users?.length === 0 || !users) return null;
     return users?.map((user) => <UserCard key={user.id} user={user} />);
   }, [users]);
-  return <S.Container>{RenderCards}</S.Container>;
+
+  if (users?.length === 0 || !users) return <p>user not found</p>;
+
+  return <S.Container aria-label="user-grid">{RenderCards}</S.Container>;
 };
