@@ -5,6 +5,7 @@ import './main.css';
 
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { SearchProvider } from './providers/SearchProvider';
+
 const App = (): ReactElement => {
   useEffect(() => {
     window.document.title = 'Find users';

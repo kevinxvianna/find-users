@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { ProgressBar as ReactAriaProgressBar } from 'react-aria-components';
+
 export const Container = styled.div`
   height: 100vh;
 
