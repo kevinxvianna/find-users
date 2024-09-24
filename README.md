@@ -5,6 +5,7 @@
 This project uses Node `v20.17.0` and Yarn `v1.22.22`
 
 
+
 Install the dependencies:
 
 ```bash
@@ -30,3 +31,5 @@ Preview the production build locally:
 ```bash
 yarn preview
 ```
+
+[Production Deploy](https://66f307f60bd30d17dabdb9de--taupe-kangaroo-777e8a.netlify.app/)
